@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SelfHostedServer.Data\SelfHostedServer.Data.csproj" />
+    <ProjectReference Include="..\SelfHostedServer.ModelsDTO\SelfHostedServer.ModelsDTO.csproj" />
+    <ProjectReference Include="..\SelfHostedServer.Models\SelfHostedServer.Models.csproj" />
+  </ItemGroup>
+
+</Project>
